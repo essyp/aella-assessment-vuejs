@@ -46,7 +46,7 @@
                 <div class="row  d-flex justify-content-center">
                   <div class="col-md-2"></div>
                     <div class="col-md-8">
-                        <center><iframe width="550" height="315" :src="'https://www.youtube.com/embed/'+details.id"></iframe></center> 
+                        <center><iframe style="width: 100%;" height="315" :src="'https://www.youtube.com/embed/'+details.id"></iframe></center> 
                         <div class="headings d-flex justify-content-between align-items-center mb-3"><br>
                           <h5>{{details?.snippet?.localized?.title}}</h5><br>                         
                         </div>
